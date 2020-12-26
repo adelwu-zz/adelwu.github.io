@@ -1,0 +1,275 @@
+<!-- index -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <title>Adel Wu</title>
+    <meta charset="UTF-8" />
+    <meta name="" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style links -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/seal_logo.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-67PJNPH423"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-67PJNPH423");
+    </script>
+  </head>
+
+  <body>
+    <!-- navigation -->
+    <nav
+      class="navbar is-spaced"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#"> Works </a>
+          <a class="navbar-item" href="art.html"> Art </a>
+          <a class="navbar-item" href="about.html"> About </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- intro -->
+    <section class="section">
+      <figure class="image is-128x128" id="pfp">
+        <img src="img/pfp.png" />
+      </figure>
+      <div class="container">
+        <h1 class="title">Hey there, nice to meet you! 🥰</h1>
+        <h2 class="description">
+          I’m Adel (she/her), a senior at the University of Pennsylvania
+          studying
+          <a href="http://cg.cis.upenn.edu/dmd.html">Digital Media Design</a>.
+          Welcome to my online ~portfolio~, which is a jumble of my artwork,
+          code, random side projects, and weird passions of mine!
+        </h2>
+        <h2 class="description">
+          I will be starting full-time as a SWE at Facebook in the Fall of 2021.
+          👩‍💻
+        </h2>
+      </div>
+    </section>
+
+    <!-- works -->
+    <section class="section">
+      <div class="container">
+        <!-- row 1 -->
+        <div class="tile is-ancestor">
+          <!-- IGTV -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a
+                href="https://blog.prototypr.io/igtv-ux-design-increasing-accessibility-with-subtitles-5227efa16790"
+              >
+                <figure class="image">
+                  <img id="proj" src="img/projects/igtv.png" />
+                </figure>
+              </a>
+              <a
+                href="https://blog.prototypr.io/igtv-ux-design-increasing-accessibility-with-subtitles-5227efa16790"
+              >
+                <p class="title">Instagram TV Accessibility</p>
+              </a>
+              <p class="description">
+                a personal UX project designing an auto-captioning feature for
+                IGTV to make it more accessible for everyone.📱
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">ux design</span>
+                <span class="tag">case study</span>
+                <span class="tag">ios app</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- COMM318 -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a
+                href="https://adelwu.medium.com/the-urban-rural-divide-is-more-complex-than-you-might-think-26d200980d0e"
+              >
+                <figure class="image">
+                  <img id="proj" src="img/projects/data.jpg" />
+                </figure>
+              </a>
+              <a
+                href="https://adelwu.medium.com/the-urban-rural-divide-is-more-complex-than-you-might-think-26d200980d0e"
+              >
+                <p class="title">The Urban-Rural Divide</p>
+              </a>
+              <p class="description">
+                using Python data analysis to reveal some national differences
+                in thoughts on politics in America and Pennsylvania.📊
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">data analytics</span>
+                <span class="tag">python</span>
+                <span class="tag">storytelling</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- row 2 -->
+        <div class="tile is-ancestor">
+          <!-- dance with me -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a
+                href="https://docs.google.com/presentation/d/1Y_q1YwGyr5sPoXQv5LoQFjMpt32MHOfxA50sMEMbC9o/edit?usp=sharing"
+              >
+                <figure class="image">
+                  <img id="proj" src="img/projects/posenet.png" />
+                </figure>
+              </a>
+              <a
+                href="https://docs.google.com/presentation/d/1Y_q1YwGyr5sPoXQv5LoQFjMpt32MHOfxA50sMEMbC9o/edit?usp=sharing"
+              >
+                <p class="title">dance with me!</p>
+              </a>
+              <p class="description">
+                using pose estimation with PoseNet (a machine learning model) to
+                calculate the accuracy of dance covers.💃
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">javscript</span>
+                <span class="tag">PoseNet</span>
+                <span class="tag">web app</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- minecraft -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a href="https://youtu.be/4Bdb1qJVeyQ">
+                <figure class="image">
+                  <img id="proj" src="img/projects/minecraft.png" />
+                </figure>
+              </a>
+              <a href="https://youtu.be/4Bdb1qJVeyQ">
+                <p class="title">Mini Minecraft</p>
+              </a>
+              <p class="description">
+                using C++/OpenGL to recreate a basic version of the popular
+                game, but Spirited Away/Ghibli themed!
+                <a href="https://github.com/cis-460-2019/mini-maya-chonky-bois"
+                  >Github</a
+                >. 🐉🏮
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">C++</span>
+                <span class="tag">computer graphics</span>
+                <span class="tag">Qt</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- row 3 -->
+        <div class="tile is-ancestor">
+          <!-- when in japan -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a
+                href="https://www.shopaabatteries.com/clothing?Collection=when+in+japan"
+              >
+                <figure class="image">
+                  <img id="proj" src="img/projects/wheninjapan.png" />
+                </figure>
+              </a>
+              <a
+                href="https://www.shopaabatteries.com/clothing?Collection=when+in+japan"
+              >
+                <p class="title">"when in japan"</p>
+              </a>
+              <p class="description">
+                a 5-design collaboration with AA Batteries, a brand that
+                supports Asian-American artists! My illustrations were inspired
+                by a trip to Japan.🍡
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">illustration</span>
+                <span class="tag">apparel</span>
+                <span class="tag">just for fun</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- made by adel -->
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <a href="https://www.instagram.com/madebyadel_/">
+                <figure class="image">
+                  <img id="proj" src="img/projects/earrings.JPG" />
+                </figure>
+              </a>
+              <a href="https://www.instagram.com/madebyadel_/">
+                <p class="title">made by adel</p>
+              </a>
+              <p class="description">
+                a small business I started selling handcrafted polymer clay
+                earrings! Made with love and care ❣️
+              </p>
+              <div class="tags are-medium">
+                <span class="tag">polymer clay</span>
+                <span class="tag">instagram</span>
+                <span class="tag">just for fun</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="foot">
+      <div>
+        <p>
+          Thanks for visiting! You can contact me at
+          <a href="mailto:adelwu@seas.upenn.edu" target="_blank" rel="noopener"
+            >adelwu@seas.upenn.edu</a
+          >.
+        </p>
+      </div>
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/adelwu/"
+          target="_blank"
+          rel="noopener"
+          ><img alt="Linkedin" src="img/linkedin.svg" class="icon"
+        /></a>
+        <a
+          href="https://www.instagram.com/art_awu/"
+          target="_blank"
+          rel="noopener"
+          ><img alt="Instagram" src="img/instagram.svg" class="icon"
+        /></a>
+        <a href="https://github.com/adelwu" target="_blank" rel="noopener"
+          ><img alt="GitHub" src="img/github.svg" class="icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
